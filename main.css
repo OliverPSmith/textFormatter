@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: aliceblue;
+    height: 100vh;
+    padding: 4rem;
+    font-family: monospace;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+#top-layer {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.top-boxes {
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.top-boxes h3 {
+    margin-bottom: 10px;
+}
+
+label {
+    padding: 0 5px;
+    
+}
+input:checked + label {
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+}
+
+.format-container, .count-container p {
+    margin-bottom: 8px;
+}
+#your-text-container {
+    width: 40%;
+    padding-top: 2rem;
+}
+textarea {
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+}
+textarea:focus {
+    outline: none;
+}

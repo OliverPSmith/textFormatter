@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Text Formatter</title>
+</head>
+<body>
+    
+    <main>
+        <h1>Text Formatter</h1>
+        <div id="top-layer">
+            <div id="formats" class="top-boxes">
+                <h3>Select text type:</h3>
+                <div class="format-container">
+                    <input type="radio" name="radio-button" id="title-case">
+                    <label for="title-case">Title Text</label>
+                </div>
+                <div class="format-container">
+                    <input type="radio" name="radio-button" id="upper-case">
+                    <label for="upper-case">UPPERCASE</label>
+                </div>
+                <div class="format-container">
+                    <input type="radio" name="radio-button" id="lower-case">
+                    <label for="lower-case">lowercase</label>
+                </div>
+            </div>
+            <div id="word-count" class="top-boxes">
+                <h3>Word Count</h3>
+                <div class="count-container">
+                    <p id="word-count"><span class="word-count-span">0</span> words</p>
+                    <p id="character-count"><span class="character-count-span">0</span> characters</p>
+                    <p id="sentence-count"><span class="sentence-count-span">0</span> sentences</p>
+                </div>
+            </div>
+        </div>
+        <div id="your-text-container">
+            <textarea name="text-input" id="text-input" cols="30" rows="10" placeholder="Type something..." style="resize: none;"></textarea>
+        </div>
+        
+    </main>
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
